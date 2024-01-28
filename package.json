@@ -1,0 +1,26 @@
+{
+  "name": "entertainment-app-mern",
+  "version": "1.0.0",
+  "description": "A MERN stack web application for entertainment, featuring movies and TV shows.",
+  "scripts": {
+    "client": "cd ./client && npm run dev",
+    "server": "cd ./server && npm start",
+    "both": "npx concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "entertainment",
+    "MERN",
+    "movie",
+    "series",
+    "web app"
+  ],
+  "author": "Sushant Pandey",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskp/entertainment-app-mern"
+  }
+}
