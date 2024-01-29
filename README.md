@@ -105,7 +105,7 @@ Koliflix is a simple app designed to help you discover, bookmark, and search for
 
 ## API Documentation
 
-Explore the API endpoints and understand how to interact with the CineCrux backend.
+Explore the API endpoints and understand how to interact with the entertainment app API.
 
 > **Postman Documentation:** <https://documenter.getpostman.com/view/31476421/2s9YyqiMrc>
 
