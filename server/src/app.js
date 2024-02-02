@@ -4,6 +4,8 @@ import cors from "cors"; // CORS middleware for handling cross-origin resource s
 import cookieParser from "cookie-parser"; // Middleware for parsing cookies
 import verifyToken from "./middlewares/verifyToken.js"; // Custom middleware for token verification
 import { CORS_OPTIONS } from "./config/constants.js"; // Importing CORS_OPTIONS from constants file
+import { join } from "path"; // Importing join function for joining the paths
+import { cwd } from "process"; // Importing cwd function for getting current working directory path
 import "./config/dbConfig.js"; // Importing database configuration
 
 // Importing Routers
@@ -20,6 +22,7 @@ import deatilsRouter from "./routes/detailsRoute.js";
 const app = express(); // Creating an instance of Express application
 
 // Middlewares
+app.use(express.static(join(cwd(), 'public'))); // Setting the static files path
 app.use(express.json()); // Parsing incoming request bodies in JSON format
 app.use(cookieParser()); // Parsing cookies from incoming requests
 app.use(cors(CORS_OPTIONS)); // Configuring CORS with options from constants

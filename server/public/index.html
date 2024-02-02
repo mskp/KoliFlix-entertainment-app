@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1, h2 {
+        color: #ffcc00;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        color: #66ccff;
+        text-decoration: none;
+        pointer-events: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to Koliflix API</h1>
+    <h2>Available Routes</h2>
+    <ul>
+      <li><a href="/api/login">/api/login</a> - <span style="color: #99ff99;">[POST]</span></li>
+      <li><a href="/api/signup">/api/signup</a> - <span style="color: #99ff99;">[POST]</span></li>
+      <li><a href="/api/refresh">/api/refresh</a> - <span style="color: #99ff99;">[POST]</span></li>
+      <li><a href="/api/logout">/api/logout</a> - <span style="color: #99ff99;">[POST]</span></li>
+      <li><a href="/api/movies">/api/movies</a> - <span style="color: #99ff99;">[GET]</span></li>
+      <li><a href="/api/series">/api/series</a> - <span style="color: #99ff99;">[GET]</span></li>
+      <li><a href="/api/bookmark">/api/bookmark</a> - <span style="color: #99ff99;">[GET, POST, DELETE]</span></li>
+      <li><a href="/api/featured">/api/featured</a> - <span style="color: #99ff99;">[GET]</span></li>
+      <li><a href="/api/detail/:id">/api/detail/&lt;id&gt;</id></a> - <span style="color: #99ff99;">[GET]</span></li>
+    </ul>
+  </body>
+</html>
