@@ -1,18 +1,18 @@
 # Koliflix - Explore movies and series
 
-![Koliflix](https://koliflix.sushant.fun/favicon.ico)
+![Koliflix](https://koliflix.vercel.app/favicon.ico)
 
 ## Deployment URL
 
-- **Front-End: <https://koliflix.sushant.fun>**
-- **Back-End: <https://koliflix-api.sushant.fun>**
+- **Front-End: <https://koliflix.vercel.app>**
+- **Back-End: <https://koliflix-api.vercel.app>**
 
 ## Overview
 
 Koliflix is a simple app designed to help you discover, bookmark, and search for your favorite movies and series. Its user-friendly interface allows easy navigation, and the practical search feature ensures you can quickly find and bookmark content. Built with simplicity in mind, Koliflix offers a straightforward experience for exploring and managing your entertainment preferences. Your bookmarks and preferences are securely stored, making Koliflix an uncomplicated and reliable choice for your movie and series enjoyment.
 
 
-![Koliflix Pages](https://koliflix.sushant.fun/pages.png)
+![Koliflix Pages](https://koliflix.vercel.app/pages.png)
 
 ### Features
 
@@ -66,7 +66,7 @@ Koliflix is a simple app designed to help you discover, bookmark, and search for
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/mskp/entertainment-app-mern.git
+   git clone https://github.com/mskp/KoliFlix-entertainment-app.git
    ```
 
 2. **Install the dependencies:**
